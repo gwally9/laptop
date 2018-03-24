@@ -219,5 +219,6 @@
     ### OSX SETTINGS
 
     - name: Configure System Settings
-      script: scripts/system_settings.sh
+      # script: scripts/system_settings.sh
+      script: scripts/minimal_system_settings.sh
       sudo: true
